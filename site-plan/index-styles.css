@@ -1,0 +1,165 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1, header a {
+    font-size: 18px;
+    margin: 0;
+}
+
+header nav {
+    display: flex;
+    gap: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #eee;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero h1 {
+    font-size: 32px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.hero p {
+    font-size: 16px;
+    max-width: 700px;
+    margin: 10px auto;
+    color: #555;
+}
+
+/* Tagline */
+.tagline {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #777;
+}
+
+/* Image Section */
+.image-section {
+    padding: 20px;
+    text-align: center;
+    background-color: #fefefe;
+}
+
+.image-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.image-gallery div {
+    text-align: center;
+    max-width: 300px;
+}
+
+.image-gallery img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-gallery button {
+    margin-top: 10px;
+    display: block;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.image-gallery button:hover {
+    background-color: #555;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+    color: #666;
+}
+
+footer nav {
+    margin-top: 10px;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+
+footer .social-icons {
+    margin-top: 10px;
+}
+
+footer .social-icons i {
+    font-size: 18px;
+    margin: 0 8px;
+    color: #333;
+    cursor: pointer;
+}
+
+footer .social-icons i:hover {
+    color: #555;
+}
